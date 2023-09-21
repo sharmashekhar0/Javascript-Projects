@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Main Container -->
+    <main class="main-container">
+        
+        <!-- Heading -->
+        <h1>Tip Calculator</h1>
+        
+        <!-- Message -->
+        <p>Enter the bill amount and tip percentage to calculate the total amount.</p>
+        
+        <!-- Input -->
+        <section>
+            <label for="bill-amount">Bill Amount:</label>
+            <input type="number" id="bill-amount">
+        </section>
+        <section>
+            <label for="tip-percentage">Tip Percentage:</label>
+            <input type="number" id="tip-percentage">
+        </section>
+
+        <!-- Calculate Button -->
+        <button id="calculate-btn">CALCULATE</button>
+        
+        <!-- Total Amount -->
+        <p id="total-amount">Total: </p>
+        
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

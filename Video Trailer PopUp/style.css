@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    height: 55vh;
+    width: fit-content;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 10px;
+    color: white;
+    width: 50vw;
+    margin: auto;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    width: 80px;
+    border-radius: 4px;
+    height: 25px;
+}
+
+button:hover {
+    background-color: rgb(248, 214, 23);
+}
+
+.video-player{
+    height: 80vh;
+    width: 80vw;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    border: 1px solid white;
+}
+
+#video-player {
+    visibility: hidden;
+}
+
+i {
+    color: white;
+    position: fixed;
+    right: 50px;
+    top: 15px;
+}
+
+i:hover {
+    color: yellow;
+}

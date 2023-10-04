@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    height: 120px;
+    margin: 0 10px;
+    border: 6px solid orange;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    width: 90%;
+}
+
+.score div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.your-score {
+    color: blue;
+}
+
+.computer-score {
+    color: red;
+}
+
+img:hover {
+    border-color: black;
+}
+
+
+
+.hide {
+    display: none;
+}

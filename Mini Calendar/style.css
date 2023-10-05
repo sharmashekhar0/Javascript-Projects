@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(71, 28, 133);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+	background-color: #fff;
+	height: 300px;
+	width: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 8px;
+	font-size: 25px;
+	box-shadow: 0 0 45px 35px rgba(255, 255, 255, 0.104);
+}
+
+.month {
+	background-color: rgb(251, 62, 62);
+	color: white;
+	width: 100%;
+	text-align: center;
+	border-radius: 8px 8px 0 0;
+	padding: 10px;
+	/* box-shadow: 0 2px 15px 15px rgba(138, 11, 11, 0.057) */
+}
+
+.day {
+	margin-top: 20px;
+}
+
+.day, .date, .year {
+	color: rgb(44, 4, 4);
+	font-weight: 500;
+}
+
+.date {
+	font-size: 80px;
+	color: black;
+	font-weight: 900;
+	margin: 10px 0;
+}

@@ -11,7 +11,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 20px;
+	font-size: 1rem;
 	background-color: rgb(216, 99, 21);
 }
 
@@ -41,7 +41,7 @@ h1 {
 .form input {
 	outline: none;
 	height: 40px;
-	font-size: 20px;
+	font-size: 1.2rem;
 	padding: 0 6px;
 	margin-bottom: 10px;
 }

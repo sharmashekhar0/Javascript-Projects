@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: lightgray;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 30px;
+	min-width: 350px;
+	min-height: 300px;
+	align-items: center;
+	font-size: 25px;
+	background-color: rgb(255, 255, 255);
+	color: brown;
+	box-shadow: 0 0 5px 5px rgba(138, 6, 6, 0.129);
+	border-radius: 10px;
+}
+
+.increment-btn,
+.decrement-btn {
+	height: 40px;
+	width: 40px;
+}
+
+.reset-btn {
+	height: 40px;
+	width: 65%;
+	font-size: 25px;
+	font-weight: 600;
+	background-color: rgb(12, 4, 74);
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.output {
+	font-size: 80px;
+	color: blue;
+	font-weight: 900;
+}
+
+.border-none {
+	border: none;
+}
+
+.bgc-blue {
+	background-color: blue;
+}
+
+.bgc-red {
+	background-color: red;
+}
+
+.font {
+	font-size: 40px;
+}
+
+.white {
+	color: white;
+}
+
+.brown {
+	color: brown;
+}
+
+.radius {
+	border-radius: 6px;
+}
+
+.red {
+	color: red;
+}

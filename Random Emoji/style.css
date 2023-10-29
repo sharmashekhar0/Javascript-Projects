@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fa8072;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+	height: 40%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.heading {
+	color: #fff;
+	font-size: 2rem;
+}
+
+.emoji-box {
+	height: 150px;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+	border-radius: 8px;
+	background-color: #fb998e;
+	cursor: pointer;
+}
+
+.emoji {
+	filter: grayscale();
+	transition: filter 0.2s ease-in-out;
+}
+
+.emoji:hover {
+	filter: grayscale(0);
+}
+
+.emoji-name {
+	font-size: 1.5rem;
+	color: rgb(4, 4, 173);
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+									supported by Chrome, Edge, Opera and Firefox */
+}

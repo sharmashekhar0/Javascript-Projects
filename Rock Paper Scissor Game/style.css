@@ -1,66 +1,107 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #0c2340;
+	color: wheat;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 25px;
+	font-family: "Open Sans", sans-serif;
+	max-width: 800px; /* Set a maximum width for better readability on larger screens */
+	width: 90%;
 }
 
 img {
-    height: 120px;
-    margin: 0 10px;
-    border: 6px solid orange;
-    border-radius: 4px;
+	height: 120px;
+	margin: 0 10px;
+	border: 6px solid orange;
+	border-radius: 4px;
 }
 
 p {
-    font-size: 30px;
-    margin: 10px 0;
-    font-weight: 600;
+	font-size: 30px;
+	margin: 10px 0;
+	font-weight: 600;
 }
 
 .score {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 20px;
-    width: 90%;
+	display: flex;
+	flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+	align-items: center;
+	justify-content: center;
+	column-gap: 20px;
+	width: 100%; /* Full width on smaller screens */
 }
 
 .score div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 5px;
 }
 
 .your-score {
-    color: blue;
+	color: rgb(75, 75, 255);
 }
 
 .computer-score {
-    color: red;
+	color: red;
 }
 
 img:hover {
-    border-color: black;
+	border-color: rgb(84, 40, 0);
 }
 
-
-
 .hide {
-    display: none;
+	display: none;
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+		font-size: 18px;
+	}
+
+	.container > h1 {
+		font-size: 30px;
+	}
+
+	img {
+		height: 80px;
+	}
+
+	.score {
+		column-gap: 10px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		font-size: 22px;
+	}
+
+	img {
+		height: 100px;
+	}
+
+	.score {
+		column-gap: 15px;
+	}
+}
+
+@media screen and (min-width: 992px) {
 }
